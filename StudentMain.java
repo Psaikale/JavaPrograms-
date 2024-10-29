@@ -1,28 +1,28 @@
-package day10;
+package day11;
 
 public class StudentMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
-		//creating object with reference variable
-		/*Student stu=new Student();
+		//Student stu=new Student();
 		
-		stu.sid=1010;
-		stu.sname="Krishna";
-		stu.grad='A';
-		
-		stu.printStudentData();
+		//1) assign data using using object reference 
+		/*stu.sid=101;
+		stu.sname="John";
+		stu.grade='A';
 		*/
 		
+		//2) assing data by using user defined method
+		//stu.setStuData(101,"John",'B');
 		
-		//creating object without reference reference varaible
-		//new Student();
 		
-		/*new Student().sid=102;
-		new Student().sname="John";
-		new Student().grad='B';
-		new Student().printStudentData();
-		*/
+		//3) using constructor
+		Student stu=new Student(101,"John",'B');
+		
+		
+		
+		stu.printStuData();
 		
 	}
 

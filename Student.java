@@ -1,14 +1,29 @@
-package day10;
+package day11;
 
 public class Student {
-	
+
 	int sid;
 	String sname;
-	char grad;
-
-	void printStudentData()
+	char grade;
+	
+	void printStuData()
 	{
-		System.out.println(sid+"  "+sname+"    "+grad);
+		System.out.println(sid+"   "+sname+" "+ grade);
+	}
+	
+	
+	void setStuData(int id,String name,char g)
+	{
+		sid=id;
+		sname=name;
+		grade=g;
+	}
+	
+	Student(int id,String name,char g)
+	{
+		sid=id;
+		sname=name;
+		grade=g;
 	}
 	
 	
