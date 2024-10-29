@@ -1,22 +1,25 @@
-package day12;
+package day14;
+
+
+class ABC
+{
+	
+}
+
+class XYZ
+{
+	
+}
 
 public class Test {
 
-	int number;
+	public static void main(String[] args) {
 	
-	void m1(int number)
-	{
-		number=number+10;
-		System.out.println("Value in the method:"+ number);
+		ABC obj=new ABC();
+		
+		XYZ obj1=new XYZ();
+		
 		
 	}
-	
-	
-	
-	void m2(Test t)
-	{
-		t.number=t.number+10;
-		System.out.println("value in the method:"+ t.number);
-	}
-	
+
 }
